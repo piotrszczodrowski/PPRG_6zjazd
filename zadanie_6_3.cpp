@@ -11,31 +11,26 @@ struct student {
     string lastName;
 };
 
-// void swapVectors(vector<student> &v1, vector<student> &v2) {
-//     student temp;
-//
-// }
-
 int main() {
     //declare students list
     vector <student> students;
     students = {
-        {32990, "Milosz", "Banaszewski"},
-        {33655, "Jan", "Baranowski"},
-        {34423, "Marek", "Dybusc"},
-        {32827, "Damian", "Fijalkowski"},
-        {32987, "Aleksy", "Greiveldinger"},
-        {32933, "Dariusz", "Grubba"},
-        {33708, "Joanna", "Jaworska"},
-        {32945, "Dawid", "Kubanek"},
-        {34551, "Pola", "Kundo"},
-        {32720, "Filip", "Miklas-Frankowski"},
-        {33081, "Dominik", "Nowakowski"},
-        {34101, "Gerald", "Serafin"},
-        {34477, "Klara", "Slupska"},
-        {32698, "Piotr", "Szczodrowski"},
-        {34102, "Katarzyna", "Wirzba"},
-        {32717, "Mario", "Zerebiec"}
+        {32990, "Samuel L.", "Jackson"},
+        {33655, "Christopher", "Waltz"},
+        {34423, "Alan", "Rickman"},
+        {32827, "Pierce", "Brosnan"},
+        {32987, "Sean", "Connery"},
+        {32933, "Roger", "Moore"},
+        {33708, "Timoty", "Dalton"},
+        {32945, "Bernard", "Lee"},
+        {34551, "Sean", "Bean"},
+        {32720, "Nicolas", "Cage"},
+        {33081, "Robbie", "Coltrane"},
+        {34101, "Ed", "Harris"},
+        {34477, "Harrison", "Ford"},
+        {32698, "Marlon", "Brando"},
+        {34102, "Al", "Pacino"},
+        {32717, "Keanu", "Reeves"}
         };
 
     // print unsorted students vector
