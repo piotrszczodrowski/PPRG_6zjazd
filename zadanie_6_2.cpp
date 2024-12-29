@@ -8,10 +8,6 @@ string subjects[4] = { "informatyki", "matematyki", "chemii", "jezyka polskiego"
 struct student {
     string name;
     int marks[4];
-    // byte computer_science;
-    // byte maths;
-    // byte biology;
-    // byte polish;
 };
 
 int main() {
